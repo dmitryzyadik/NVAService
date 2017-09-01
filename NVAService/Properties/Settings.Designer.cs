@@ -33,28 +33,5 @@ namespace NVAService.Properties {
                 return ((string)(this["NVAComputerBaseConnectionString"]));
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string Setting {
-            get {
-                return ((string)(this["Setting"]));
-            }
-            set {
-                this["Setting"] = value;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SQLBACK-WIN12;Initial Catalog=NVAComputerBase;Persist Security Info=T" +
-            "rue;User ID=sa;Password=bug")]
-        public string NVAComputerBaseConnectionString1 {
-            get {
-                return ((string)(this["NVAComputerBaseConnectionString1"]));
-            }
-        }
     }
 }
